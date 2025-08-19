@@ -12,4 +12,5 @@ try:
     with open("Week 4 .pdf", "r") as file:
         data = file.read()
 except FileNotFoundError:
+
     print("File not found. Please check the filename.")
